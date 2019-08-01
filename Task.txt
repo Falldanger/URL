@@ -1,0 +1,5 @@
+URL parsing
+
+Process the link of the form: http: //mysite.local/? Page = 1 & ref = partner - namely, save the value of the ref parameter in the user's cookie, then delete the ref parameter altogether and redirect the resulting link (there should be a redirect here: http: / /mysite.local/?page=1)
+Make sure that cookie ref is actually saved by displaying it in a browser window.
+Note: Be sure to use functions to work with URLs.
